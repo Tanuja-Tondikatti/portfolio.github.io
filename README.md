@@ -1,6 +1,6 @@
 ## Portfolio
 
-### Hello, I'm [Your Name] 👋
+### Hello, I'm Tanuja Tondikatti
 
 I am passionate about technology and problem-solving. Here's a glimpse of my work:
 
@@ -9,9 +9,9 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 - **Project 2**: A short description of another project.
 
 ## 🚀 Skills
-- C++, Python, JavaScript
+- Programming language: CPP, C, Python(Basic)
 - Data Structures and Algorithms
-- Web Development (React.js, Node.js)
+- Web Development: HTML,CSS,node.js
 
 ## 🌐 Find Me Online
 - [GitHub](https://github.com/your-github-username)
