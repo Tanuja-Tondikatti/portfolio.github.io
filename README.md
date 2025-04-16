@@ -1,22 +1,20 @@
-### The Microsoft Matrix
-
-## Portfolio Topic
+## The Microsoft Matrix
 
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
 <dt>Course Code</dt>
-<dd>Course Code Placeholder</dd>
+<dd>24ECSE309</dd>
 <dt>Name</dt>
-<dd>Your Name</dd>
+<dd>Tanuja Tondikatti</dd>
 <dt>SRN</dt>
-<dd>Your SRN</dd>
+<dd>01FE22BCS182</dd>
 <dt>Course Instructor</dt>
-<dd>Instructor Name Placeholder</dd>
+<dd>Prakash Hegade</dd>
 <dt>University</dt>
-<dd>Your University Name</dd>
+<dd>KLE Technological University, Hubballi-31</dd>
 <dt>Portfolio Topic/Domain</dt>
-<dd>Google</dd>
+<dd>Microsoft</dd>
 </dl>
 
 <br> 
