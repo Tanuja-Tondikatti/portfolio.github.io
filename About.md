@@ -9,6 +9,6 @@
 - Data Structures and Algorithms
 - Web Development: HTML,CSS,node.js
 
-## 🌐 Find Me Online
-- [GitHub](https://github.com/your-github-username)
+## 🌐 Links
+- [Hackerrank](https://www.hackerrank.com/profile/tondikattitanuja)
 - [LinkedIn](https://linkedin.com/in/your-linkedin-profile)
