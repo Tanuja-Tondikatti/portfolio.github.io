@@ -17,5 +17,8 @@
 <dd>Microsoft</dd>
 </dl>
 
-> “The only way to do great work is to love what you do.” – Steve Jobs
+### Introduction
+![Microsoft logo](/Assets/microsoft.jpg)
+>**Microsoft** is the world's largest vendor of computer software and a leading provider of cloud computing services, video games, computer and gaming hardware, search >and other online services. Based in Redmond, Wash., Microsoft has offices across the U.S. and multiple countries worldwide.
+
 >
