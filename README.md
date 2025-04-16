@@ -18,7 +18,7 @@
 </dl>
 
 ### Introduction
-![Microsoft logo](/Assets/microsoft.jpg)
+<img src="microsoft.jpg" alt="Microsoft logo" width="800" height="350"/>
 >**Microsoft** is the world's largest vendor of computer software and a leading provider of cloud computing services, video games, computer and gaming hardware, search >and other online services. Based in Redmond, Wash., Microsoft has offices across the U.S. and multiple countries worldwide.
 
 >
