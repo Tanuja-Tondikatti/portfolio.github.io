@@ -1,4 +1,3 @@
-## Portfolio
 
 ### Hello, I'm Tanuja Tondikatti
 
