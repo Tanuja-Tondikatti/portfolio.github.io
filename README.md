@@ -1,21 +1,15 @@
 ## The Microsoft Matrix
 
-<dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Course Code</dt>
-<dd>24ECSE309</dd>
-<dt>Name</dt>
-<dd>Tanuja Tondikatti</dd>
-<dt>SRN</dt>
-<dd>01FE22BCS182</dd>
-<dt>Course Instructor</dt>
-<dd>Prakash Hegade</dd>
-<dt>University</dt>
-<dd>KLE Technological University, Hubballi-31</dd>
-<dt>Portfolio Topic/Domain</dt>
-<dd>Microsoft</dd>
-</dl>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div><strong>Course Name:</strong> Algorithmic Problem Solving</div>
+  <div><strong>Course Code:</strong> 24ECSE309</div>
+  <div><strong>Name:</strong> Tanuja Tondikatti</div>
+  <div><strong>SRN:</strong> 01FE22BCS182</div>
+  <div><strong>Course Instructor:</strong> Prakash Hegade</div>
+  <div><strong>University:</strong> KLE Technological University, Hubballi-31</div>
+  <div><strong>Portfolio Topic/Domain:</strong> Microsoft</div>
+</div>
+
 
 ### Introduction
 <img src="microsoft.jpg" alt="Microsoft logo" width="800" height="350"/>
