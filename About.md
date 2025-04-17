@@ -1,4 +1,4 @@
-### Hello, I'm Tanuja Tondikatti, a Computer Science student passionate about technology, innovation, and problem-solving.
+Hello, I'm Tanuja Tondikatti, a Computer Science student passionate about technology, innovation, and problem-solving. I’m inspired by how Microsoft blends innovation and impact across software, cloud, and AI—and I aspire to contribute to that ecosystem by continuously growing as a developer and problem solver. I look forward to contributing to Microsoft’s vision of driving innovation
 
 ## 🛠️ Projects
 - **Project 1**: A short description of your project.
