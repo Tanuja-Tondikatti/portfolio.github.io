@@ -49,6 +49,26 @@ GraphRAG is a recent innovation by Microsoft that enhances traditional Retrieval
 
 Lean is an open-source theorem prover and functional programming language developed by Microsoft for writing and verifying mathematical proofs. It enables users to construct complex logical arguments with machine-checked accuracy, eliminating human errors in critical reasoning. Lean is widely used in academic research, formal verification, and mathematics education, offering a bridge between programming and rigorous proof logic. Its ability to formalize and verify proofs makes it invaluable for high-stakes domains like cryptography, aerospace, and software correctness.
 
+## 💼 Microsoft Business Cases: Innovation for Impact
+
+#### 🌿 1. Carbon Removal Commitments  
+**Timeline:** 2024–2039  
+**Estimated Budget:** $800+ million (AtmosClear project)  
+
+Microsoft is leading in sustainability by investing in large-scale carbon removal projects. It signed a major agreement with **AtmosClear** to support the world’s largest **BECCS** (Bioenergy with Carbon Capture and Storage) project in Louisiana. This initiative aims to permanently remove **6.75 million metric tons of CO₂** over 15 years.  
+
+In a separate deal, Microsoft partnered with **CO280**, a startup developing carbon capture solutions for the pulp and paper industry. This agreement targets the removal of **3.7 million tons of CO₂** over 12 years. These projects contribute to Microsoft's ambitious goal of becoming **carbon negative by 2030**.
+
+#### 🤖 2. Strategic AI Infrastructure Expansion  
+**Timeline:** FY 2025 (July 2024 – June 2025)  
+**Estimated Budget:** $80 billion in capital expenditures  
+
+To meet rising demand for generative AI and cloud computing, Microsoft is significantly expanding its AI infrastructure. This includes large-scale investments in **GPUs**, cloud hardware, and data center development for its **Azure** platform.  
+
+In parallel, Microsoft is enhancing its **Dynamics 365** suite, launching the **2025 Release Wave 1** with hundreds of new features across Sales, Finance, Customer Service, and Supply Chain applications. These upgrades aim to improve automation, decision-making, and business agility across industries.
+
+
+
 
 [About Me](About.md)
 
