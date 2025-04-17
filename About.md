@@ -18,8 +18,11 @@ Hello, I'm Tanuja Tondikatti, a Computer Science student passionate about techno
 
   
 ## 🛠️ Projects
-- **Project 1**: A short description of your project.
-- **Project 2**: A short description of another project.
+- **Project 1**:** Disease detection in Sugarcane Plant**
+  
+Developed a plant disease detection model leveraging the InceptionV3 architecture for feature extraction and classification. Trained on a curated dataset of sugarcane plant leaf images to identify multiple diseases. Achieved an overall accuracy of 96%, demonstrating high reliability in early disease diagnosis.
+  
+- **Project 2**: Optimizing Connectivity for Massive machine-type communication 
 
 ## 🚀 Skills
 - Programming language: CPP, C, Python(Basic)
