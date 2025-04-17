@@ -40,6 +40,15 @@
 - **Windows 🖥️**: Operating system for personal computers, laptops, and servers.
 - **Xbox 🎮**: Gaming console and online gaming service.
 
+## Emerging Tech from Microsoft
+### 🧠 GraphRAG: Smarter AI for Complex Data
+
+GraphRAG is a recent innovation by Microsoft that enhances traditional Retrieval-Augmented Generation (RAG) methods by integrating graph-based reasoning. Instead of treating documents as isolated text blocks, GraphRAG builds a knowledge graph that captures relationships between entities and concepts. This allows AI models to retrieve more relevant context and generate more accurate, coherent answers—especially when working with private or domain-specific datasets. It's a powerful tool for improving enterprise-level question answering, knowledge discovery, and decision support.
+
+### 📐 Lean: Formal Proofs, Verified by Code
+
+Lean is an open-source theorem prover and functional programming language developed by Microsoft for writing and verifying mathematical proofs. It enables users to construct complex logical arguments with machine-checked accuracy, eliminating human errors in critical reasoning. Lean is widely used in academic research, formal verification, and mathematics education, offering a bridge between programming and rigorous proof logic. Its ability to formalize and verify proofs makes it invaluable for high-stakes domains like cryptography, aerospace, and software correctness.
+
 
 [About Me](About.md)
 
