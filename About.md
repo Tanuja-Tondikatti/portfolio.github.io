@@ -30,8 +30,8 @@ Hello, I'm Tanuja Tondikatti, a Computer Science student passionate about techno
 
 ## 🏆 Achievements
   - Secured 5⭐ in C++ on HackerRank.
-  - District Level Chess Player.
+  - Published a research paper in the field of Machine learning.
 
 ## 🌐 Links
 - [Hackerrank](https://www.hackerrank.com/profile/tondikattitanuja)
-- [LinkedIn](https://linkedin.com/in/your-linkedin-profile)
+- [LinkedIn](https://www.linkedin.com/in/tanuja-tondikatti-931963269/)
