@@ -24,7 +24,13 @@ Hello, I'm Tanuja Tondikatti, a Computer Science student passionate about techno
 ## 🚀 Skills
 - Programming language: CPP, C, Python(Basic)
 - Data Structures and Algorithms
-- Web Development: HTML,CSS,node.js
+- Web Development: HTML, CSS, node.js
+- Database: SQL, mySQL
+- Version Control: github
+
+## 🏆 Achievements
+  - Secured 5⭐ in C++ on HackerRank.
+  - District Level Chess Player.
 
 ## 🌐 Links
 - [Hackerrank](https://www.hackerrank.com/profile/tondikattitanuja)
