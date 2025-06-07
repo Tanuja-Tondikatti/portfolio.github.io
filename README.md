@@ -85,13 +85,19 @@ Matches form input fields to their correct labels using **bipartite graph algori
 
 
 ---
-**Trie:** Tries enhance search functionality by providing predictive text suggestions as users type queries in Edge. Also known as submission throttling.
+## Data Structure And Algorithm analysis
+###  Trie
+
+Tries enhance search functionality by providing predictive text suggestions as users type queries in Edge. Also known as submission throttling.  
 Tree data structure, Prefix tree
-Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
-Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+
+- **Time Complexity**: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)  
+- **Space Complexity**: O(ALPHABET_SIZE × L), where ALPHABET_SIZE is the number of possible characters and L is the length of the key
 
 
 
+
+[View code here](codes\Trie.cpp)
 [About Me](About.md)
 
 
