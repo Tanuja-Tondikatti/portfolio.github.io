@@ -110,7 +110,7 @@ Used for ranking autofill suggestions by recency or frequency. Efficiently retri
 - **Time Complexity:** O(log N) for insertion and deletion
 - **Space Complexity:** O(N)
 
-
+[View code here](codes\Heap.cpp)
 ### Disjoint Set Union (DSU)
 
 Used to isolate sessions, such as incognito windows in browsers. Efficient group tracking and isolation, avoiding interference between user sessions.
@@ -121,6 +121,7 @@ Used to isolate sessions, such as incognito windows in browsers. Efficient group
 
 ### Bipartite Graph
 <img src="Images\bi.png" alt="Bipartite" width="500" height="400"/>
+
 Used to map dynamic form fields (e.g., autofill label ↔ field). Ensure that label-to-field mapping is valid, even in irregular HTML layouts.
 
 - **Time Complexity:** O(V + E)
