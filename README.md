@@ -87,17 +87,27 @@ Matches form input fields to their correct labels using **bipartite graph algori
 ---
 ## Data Structure And Algorithm analysis
 ###  Trie
-
+<img src="Images\Triedatastructure1.png" alt="Number of Users" width="500" height="400"/>
 Tries enhance search functionality by providing predictive text suggestions as users type queries in Edge. Also known as submission throttling.  
 Tree data structure, Prefix tree
 
 - **Time Complexity**: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)  
 - **Space Complexity**: O(ALPHABET_SIZE × L), where ALPHABET_SIZE is the number of possible characters and L is the length of the key
 
-
-
-
 [View code here](codes\Trie.cpp)
+
+###   BK-Tree
+
+BK-Trees support typo-resilient search by allowing approximate matches based on edit distances.  
+Commonly used for spelling correction, fuzzy matching, and autofill systems (e.g., suggesting “email” when user types “emial”).  
+Tree data structure built using metric spaces (like Levenshtein distance).
+
+- **Time Complexity**: O(log N) for search in a balanced BK-Tree, where N is the number of words  
+- **Space Complexity**: O(N × L), where N is the number of stored words and L is the average word length
+
+
+
+
 [About Me](About.md)
 
 
