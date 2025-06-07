@@ -40,19 +40,12 @@
 - **Windows 🖥️**: Operating system for personal computers, laptops, and servers.
 - **Xbox 🎮**: Gaming console and online gaming service.
 
-### Objectives
-
-1. To apply advanced algorithms and data structures to improve the speed and efficiency of Google’s services.
-
-2. To demonstrate the real-world use of concepts learned in DSA and APS courses, focusing on design techniques and performance analysis.
-
-3. To propose algorithms that enhance user experiences, solve market challenges, and maximize business benefits within Google’s ecosystem.
-
-
 ## Business Cases
+<img src="Statistics.jpeg" alt="Number of Users" width="600" height="300"/>
 
+This Bar graph illustrates the current competitive landscape of desktop browsers. Despite being built on the same Chromium engine, Google Chrome vastly dominates, while Microsoft Edge, though second, captures only about 1/5 of Chrome's market. Despite being faster and more integrated with Windows 11, Edge is not widely adopted. This exposes both a challenge and a business opportunity for Microsoft. If Edge wins even 10% of Chrome’s share, it would gain ~6.5%, increasing its total to ~20%. This makes Edge a major challenger brand, opening monetization opportunities (e.g., Bing Ads, shopping tools).
 
-
+To achieve this objective, it is essential to identify and resolve critical technical bottlenecks that hinder both user adoption and browser performance. By Leveraging advanced data structures and algorithms can enhance the browser’s speed, responsiveness, and resource management.
 [About Me](About.md)
 
 
