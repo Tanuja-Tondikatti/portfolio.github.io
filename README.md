@@ -49,52 +49,34 @@ To achieve this objective, it is essential to identify and resolve critical tech
 
 # 1. Autofill System 
 
-
-
-## 🧰 Features & Descriptions
-
 ### 🔍 Autocomplete with Trie
 Uses a **prefix tree (Trie)** to quickly find form entries that match user input as they type.  
 **Example:** Typing `tan` instantly suggests `tanuja@example.com`.
-
----
 
 ### 🔡 Typo Correction via BK-Tree
 Implements a **BK-Tree (Burkhard-Keller Tree)** for fuzzy string matching using edit distance.  
 **Example:** If a user types `emial`, it still suggests `email`.
 
----
-
 ### 📈 Suggestion Ranking with Min/Max Heaps
 Uses **heaps** (priority queues) to prioritize autofill suggestions based on **recency** or **frequency** of use.  
 **Example:** Emails or names used more often appear at the top of suggestions.
-
----
 
 ### 🔒 Encrypted Data Vault
 Stores sensitive information (like passwords and credit card numbers) using **AES-encrypted hash maps or secure vaults**.  
 Ensures protection against unauthorized access or browser leaks.
 
----
-
 ### 👤 Session-Based Isolation with Disjoint Set Union
 Uses **Disjoint Set Union (DSU)** to isolate autofill data between normal and incognito sessions.  
 **Example:** No suggestions from regular mode appear in private mode.
-
----
 
 ### 🧩 Flexible Form Mapping via Bipartite Graphs
 Matches form input fields to their correct labels using **bipartite graph algorithms**.  
 **Useful when:** Websites use non-standard form layouts or custom naming conventions.
 
 
----
-
-
-
 | Feature               | Data Structure           | Purpose                                        |
 |-----------------------|---------------------------|------------------------------------------------|
-| Input Prediction      | Trie / Radix Tree         | Fast prefix matching                           |
+| Input Prediction      | Trie                      | Fast prefix matching                           |
 | Typo Correction       | BK-Tree                   | Fuzzy search using edit distance               |
 | Suggestion Ranking    | Heap / Priority Queue     | Recent/Frequent entry prioritization           |
 | Secure Storage        | Encrypted Hash Map        | Local secure vault with AES encryption         |
@@ -102,6 +84,7 @@ Matches form input fields to their correct labels using **bipartite graph algori
 | Form Field Matching   | Bipartite Graph           | Maps form fields to labels                     |
 
 
+---
 **Trie:** Tries enhance search functionality by providing predictive text suggestions as users type queries in Edge. Also known as submission throttling.
 Tree data structure, Prefix tree
 Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
