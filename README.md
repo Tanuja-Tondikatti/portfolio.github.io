@@ -120,7 +120,7 @@ Used to isolate sessions, such as incognito windows in browsers. Efficient group
 
 
 ### Bipartite Graph
-<img src="Images\Bi.jpg" alt="BK" width="500" height="400"/>
+<img src="Images\bi.png" alt="Bipartite" width="500" height="400"/>
 Used to map dynamic form fields (e.g., autofill label ↔ field). Ensure that label-to-field mapping is valid, even in irregular HTML layouts.
 
 - **Time Complexity:** O(V + E)
