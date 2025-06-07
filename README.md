@@ -61,10 +61,6 @@ Implements a **BK-Tree (Burkhard-Keller Tree)** for fuzzy string matching using 
 Uses **heaps** (priority queues) to prioritize autofill suggestions based on **recency** or **frequency** of use.  
 **Example:** Emails or names used more often appear at the top of suggestions.
 
-### 🔒 Encrypted Data Vault
-Stores sensitive information (like passwords and credit card numbers) using **AES-encrypted hash maps or secure vaults**.  
-Ensures protection against unauthorized access or browser leaks.
-
 ### 👤 Session-Based Isolation with Disjoint Set Union
 Uses **Disjoint Set Union (DSU)** to isolate autofill data between normal and incognito sessions.  
 **Example:** No suggestions from regular mode appear in private mode.
@@ -79,7 +75,6 @@ Matches form input fields to their correct labels using **bipartite graph algori
 | Input Prediction      | Trie                      | Fast prefix matching                           |
 | Typo Correction       | BK-Tree                   | Fuzzy search using edit distance               |
 | Suggestion Ranking    | Heap / Priority Queue     | Recent/Frequent entry prioritization           |
-| Secure Storage        | Encrypted Hash Map        | Local secure vault with AES encryption         |
 | Session Isolation     | Disjoint Set Union (DSU)  | Prevent autofill leaks across private sessions |
 | Form Field Matching   | Bipartite Graph           | Maps form fields to labels                     |
 
@@ -88,6 +83,7 @@ Matches form input fields to their correct labels using **bipartite graph algori
 ## Data Structure And Algorithm analysis
 ###  Trie
 <img src="Images\Triedatastructure1.png" alt="Trie" width="500" height="400"/>
+
 Tries enhance search functionality by providing predictive text suggestions as users type queries in Edge. Also known as submission throttling.  
 Tree data structure, Prefix tree
 
@@ -98,6 +94,7 @@ Tree data structure, Prefix tree
 
 ###   BK-Tree
 <img src="Images\BK.jpg" alt="BK" width="500" height="400"/>
+
 BK-Trees support typo-resilient search by allowing approximate matches based on edit distances.  
 Commonly used for spelling correction, fuzzy matching, and autofill systems (e.g., suggesting “email” when user types “emial”).  
 Tree data structure built using metric spaces (like Levenshtein distance).
@@ -107,7 +104,29 @@ Tree data structure built using metric spaces (like Levenshtein distance).
 
 [View code here](codes\BK.cpp)
 
+###  Priority Queue
 
+Used for ranking autofill suggestions by recency or frequency. Efficiently retrieve top suggestions (e.g., most frequently used form input).
+- **Time Complexity:** O(log N) for insertion and deletion
+- **Space Complexity:** O(N)
+
+
+### Disjoint Set Union (DSU)
+
+Used to isolate sessions, such as incognito windows in browsers. Efficient group tracking and isolation, avoiding interference between user sessions.
+
+- **Time Complexity:** O(α(N)) per operation (almost constant)
+- **Space Complexity:** O(N)
+
+
+### Bipartite Graph
+
+Used to map dynamic form fields (e.g., autofill label ↔ field). Ensure that label-to-field mapping is valid, even in irregular HTML layouts.
+
+- **Time Complexity:** O(V + E)
+- **Space Complexity:** O(V)
+
+- 
 [About Me](About.md)
 
 
