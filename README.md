@@ -127,7 +127,63 @@ Used to map dynamic form fields (e.g., autofill label ↔ field). Ensure that la
 - **Time Complexity:** O(V + E)
 - **Space Complexity:** O(V)
 
-- 
+  ---
+# 2. Page Loading Optimization
+
+Page loading is a critical factor in browser performance. Efficient use of data structures and algorithms improves rendering speed, responsiveness, and perceived performance. Improve the speed at which a webpage is parsed, resources are fetched, and content is rendered.
+
+
+
+## 🔧 Data Structures & Algorithms
+
+| Data Structure / Algorithm | Purpose |
+|----------------------------|---------|
+| **Event Queue / Min Heap** | Efficient scheduling of tasks like scripts, animations, and painting frames |
+| **Dependency Graph**       | Manage resource loading order (e.g., CSS before JS execution) |
+| **Trie / HashMap**         | Fast URL resolution, DNS prefetching, and cache lookup |
+| **LRU Cache**              | Efficient memory management of recently used resources (images, scripts) |
+| **Segment Trees**          | Manage layout recalculations or animations across DOM sections |
+
+---
+
+### 🧠 Concepts
+- **Critical Path Rendering**: Prioritize essential resources (HTML, CSS) using Dependency Graphs.
+- **Lazy Loading**: Delays loading non-visible content using LRU strategy.
+- **Preloading / Prefetching**: Use Tries and HashMaps to resolve likely next resources.
+
+---
+
+### Event Queue / Min Heap
+Min Heaps are used for scheduling tasks in the correct order of execution based on priority. For example, scripts that must run before rendering, layout recalculations, or frame paint tasks can be prioritized and executed using a min-heap task scheduler.
+
+- **Time Complexity**: O(log N) for insertion and deletion
+- **Space Complexity**: O(N)
+
+### Dependency Graph
+Dependency graphs represent the interdependencies among resources (scripts, stylesheets, etc.). This helps the browser determine the optimal load and execution order to minimize render-blocking and maximize performance.
+
+- **Time Complexity**: O(V + E)
+- **Space Complexity**: O(V + E)
+
+### Trie / HashMap
+Tries and HashMaps are used to accelerate search operations such as DNS lookups, cache resolution, and preloading suggestions. Tries support efficient prefix matching while HashMaps allow constant-time lookups.
+
+- **Time Complexity (Trie)**: O(L)
+- **Space Complexity**: O(ALPHABET_SIZE × L)
+
+### LRU Cache
+Least Recently Used (LRU) Cache is applied for caching assets like images, scripts, or pages. It keeps the most recently accessed content readily available while evicting older, less-used resources when memory is constrained.
+
+- **Time Complexity**: O(1) for get/put using hashmap + doubly linked list
+- **Space Complexity**: O(N)
+
+### Segment Tree
+Segment Trees allow efficient range updates and queries. They are useful when dynamically updating or querying DOM regions, animations, or styles in real-time as the user interacts with the page.
+
+- **Time Complexity**: O(log N) for update/query
+- **Space Complexity**: O(N)
+
+---
 [About Me](About.md)
 
 
