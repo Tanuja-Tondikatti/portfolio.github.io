@@ -258,11 +258,11 @@ Microsoft Outlook is one of the most widely used email platforms, supporting mil
 
 ## Data structure analysis
 | Data Structure / Algorithm | Use Case                              | Time Complexity                            | Space Complexity            |
-|----------------------------|-------------------------------------|--------------------------------------------|-----------------------------|
-| **Inverted Index**          | Full-text email search               | Build: O(N × W), Query: O(1)               | O(N × W)                    |
-| **Bloom Filter**            | Spam detection, duplicate checking  | Insert/Query: O(k) (k = number of hashes) | O(m) bits                   |
-| **KMP String Matching**     | Pattern search in email content     | Preprocessing: O(M), Search: O(N + M)      | O(M)                        |
-| **Red-Black Tree**          | Balanced storage of messages/logs   | Insert/Delete/Search: O(log N)              | O(N)                        |
+|----------------------------|---------------------------------------|--------------------------------------------|-----------------------------|
+| **Inverted Index**         | Full-text email search                | Build: O(N × W), Query: O(1)               | O(N × W)                    |
+| **Bloom Filter**           | Spam detection, duplicate checking    | Insert/Query: O(k) (k = number of hashes)  | O(m) bits                   |
+| **KMP String Matching**    | Pattern search in email content       | Preprocessing: O(M), Search: O(N + M)      | O(M)                        |
+| **Red-Black Tree**         | Balanced storage of messages/logs     | Insert/Delete/Search: O(log N)             | O(N)                        |
 
 ## Conclusion
 
