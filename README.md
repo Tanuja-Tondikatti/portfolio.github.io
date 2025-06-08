@@ -165,19 +165,25 @@ Dependency graphs represent the interdependencies among resources (scripts, styl
 - **Time Complexity**: O(V + E)
 - **Space Complexity**: O(V + E)
 
-### Trie / HashMap
+### Trie 
 Tries and HashMaps are used to accelerate search operations such as DNS lookups, cache resolution, and preloading suggestions. Tries support efficient prefix matching while HashMaps allow constant-time lookups.
 
 - **Time Complexity (Trie)**: O(L)
 - **Space Complexity**: O(ALPHABET_SIZE × L)
+  
+[View code here](codes\Trie.cpp)
 
 ### LRU Cache
+<img src="Images\LRU.jpg" alt="Trie" width="500" height="400"/>
+
 Least Recently Used (LRU) Cache is applied for caching assets like images, scripts, or pages. It keeps the most recently accessed content readily available while evicting older, less-used resources when memory is constrained.
 
 - **Time Complexity**: O(1) for get/put using hashmap + doubly linked list
 - **Space Complexity**: O(N)
 
 ### Segment Tree
+<img src="Images\segment.png" alt="Trie" width="500" height="400"/>
+
 Segment Trees allow efficient range updates and queries. They are useful when dynamically updating or querying DOM regions, animations, or styles in real-time as the user interacts with the page.
 
 - **Time Complexity**: O(log N) for update/query
