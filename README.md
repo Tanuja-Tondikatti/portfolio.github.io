@@ -237,23 +237,17 @@ Microsoft Outlook is one of the most widely used email platforms, supporting mil
 ### **Bloom Filter**
 - **Use Case:** Fast spam signature checks and duplicate email detection.
 - **Benefit:** Low-memory, probabilistic presence testing in O(1) time.
-### **Segment Tree**
-- **Use Case:** Efficient querying of email stats (e.g., unread count over time range).
-- **Benefit:** O(log N) time for updates and range queries.
+[View code here](codes\bloomfilters.cpp)
 
-### **LRU Cache**
-- **Use Case:** Cache of recently opened emails or frequently contacted users.
-- **Structure:** HashMap + Doubly Linked List
-- **Benefit:** O(1) get/put; boosts perceived responsiveness.
-
-### **KMP / Boyer-Moore String Matching**
+### **KMP String Matching**
 - **Use Case:** Efficient pattern search in email content or attachments.
 - **Benefit:** Sublinear or linear pattern match times in large text bodies.
+[View code here](codes\KMP.cpp)
 
-### **AVL Tree / Red-Black Tree**
+### **Red-Black Tree**
 - **Use Case:** Balanced storage of timestamped messages or event logs.
 - **Benefit:** Ensures O(log N) insert, delete, and search.
----
+[View code here](Red-black.cpp)
 
 ## Conclusion
 
