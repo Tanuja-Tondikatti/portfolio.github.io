@@ -189,6 +189,8 @@ Segment Trees allow efficient range updates and queries. They are useful when dy
 - **Time Complexity**: O(log N) for update/query
 - **Space Complexity**: O(N)
 
+ 
+  [View code here](codes\Segment.cpp)
 ---
 [About Me](About.md)
 
