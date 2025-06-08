@@ -302,7 +302,33 @@ Efficiently synchronize millions of files across devices while minimizing data c
   
   [View code here](codes\Merkle.cpp)
 
-  
+---
+# 6. Microsoft Azure - Distributed Database Query Optimization
+ 
+Optimize query execution across distributed databases to minimize latency and balance load efficiently.
+
+## Challenges
+- Handling large volumes of queries on distributed nodes.
+- Minimizing inter-node communication overhead.
+- Efficiently scheduling and routing queries to appropriate shards or replicas.
+
+## Market Benefits
+- Reduced query response times improve user experience.
+- Balanced load prevents server overload and failures.
+- Scalable architecture supports growing data and user base.
+
+## Data structure analysis
+
+| Data Structure / Algorithm     | Use Case                                     | Time Complexity                       | Space Complexity     |
+|-------------------------------|----------------------------------------------|----------------------------------------|----------------------|
+| **Priority Queue (Heap)**      | Schedule queries based on priority or cost   | Insert/Extract Min: O(log N)           | O(N)                 |
+| **Dijkstra’s Algorithm**       | Find shortest/optimal query routing paths    | O(E + V log V) (with min-heap)         | O(V + E)             |
+
+- **Priority Queue** is used to manage query execution in order of priority (e.g., latency-sensitive queries first), improving responsiveness under load.
+- **Dijkstra’s Algorithm** is applied on the server/network graph to determine the least-cost route to the appropriate database shard or replica, reducing inter-node latency.
+
+
+
 [About Me](About.md)
 
 
