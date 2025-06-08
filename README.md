@@ -192,9 +192,35 @@ Segment Trees allow efficient range updates and queries. They are useful when dy
 - **Time Complexity**: O(log N) for update/query
 - **Space Complexity**: O(N)
 
- 
-  [View code here](codes\Segment.cpp)
+[View code here](codes\Segment.cpp)
+
 ---
+# Optimizing Network Traffic in Microsoft Services
+
+Microsoft manages vast networks of servers and data centers to deliver its services. The Max Flow algorithms can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion. Max flow algorithms, such as Karger’s, Dinic’s, and Ford-Fulkerson, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
+
+## Algorithms, Design Techniques, and Performance Analysis
+
+### 1. Ford-Fulkerson Algorithm
+- **Approach:** Uses augmenting path method with a greedy approach to iteratively find paths from source to sink that can carry more flow.
+- **Design Techniques:** Residual graph, BFS for path search (Edmonds-Karp variant).
+- **Time Complexity:** O(E * V²), where E = number of edges, V = number of vertices.
+- **Space Complexity:** O(V²).
+
+### 2. Dinic’s Algorithm
+- **Approach:** Uses a layered network to find blocking flows, speeding up the max flow computation compared to Ford-Fulkerson.
+- **Design Techniques:** Level graph construction via BFS, blocking flow calculation via DFS.
+- **Performance:** More efficient in practice, especially for dense graphs.
+
+### 3. Karger’s Algorithm
+- **Approach:** A randomized contraction algorithm based on the min-cut max-flow theorem.
+- **Design Techniques:** Randomly contracts edges while preserving minimum cuts.
+- **Performance:** Probabilistic guarantees, useful for min-cut problems and network reliability analysis.
+  
+These algorithms provide foundational tools for optimizing network traffic, enabling large-scale infrastructures like Google’s data centers to operate efficiently under heavy loads.
+
+[View code here](codes\Maxflow.cpp)
+
 [About Me](About.md)
 
 
