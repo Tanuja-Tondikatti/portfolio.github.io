@@ -196,6 +196,7 @@ Segment Trees allow efficient range updates and queries. They are useful when dy
 
 ---
 # Optimizing Network Traffic in Microsoft Services
+<img src="Images\Max.png" alt="BK" width="500" height="400"/>
 
 Microsoft manages vast networks of servers and data centers to deliver its services. The Max Flow algorithms can be used to optimize network traffic flow, ensuring efficient data transmission and minimizing congestion. Max flow algorithms, such as Karger’s, Dinic’s, and Ford-Fulkerson, can assist in determining optimal routes and balancing the load across servers, improving system performance and reliability.
 
