@@ -231,17 +231,21 @@ Microsoft Outlook is one of the most widely used email platforms, supporting mil
 ## Algorithms and Data Structures Used
 
 ### **Inverted Index**
+<img src="Images\inverted-index.jpg" alt="BK" width="500" height="400"/>
+
 - **Use Case:** Full-text email search (subject, body, attachments).
 - **Benefit:** O(1) keyword lookup after preprocessing; fast and scalable.
 
 ### **Bloom Filter**
 - **Use Case:** Fast spam signature checks and duplicate email detection.
 - **Benefit:** Low-memory, probabilistic presence testing in O(1) time.
+  
 [View code here](codes\bloomfilters.cpp)
 
 ### **KMP String Matching**
 - **Use Case:** Efficient pattern search in email content or attachments.
 - **Benefit:** Sublinear or linear pattern match times in large text bodies.
+  
 [View code here](codes\KMP.cpp)
 
 ### **Red-Black Tree**
