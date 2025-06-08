@@ -326,9 +326,10 @@ Optimize query execution across distributed databases to minimize latency and ba
 
 - **Priority Queue** is used to manage query execution in order of priority (e.g., latency-sensitive queries first), improving responsiveness under load.
 - **Dijkstra’s Algorithm** is applied on the server/network graph to determine the least-cost route to the appropriate database shard or replica, reducing inter-node latency.
+<img src="Images\dij.png" alt="Bipartite" width="500" height="400"/>
 
-
-
+ [View code here](codes\Dijkstras.cpp)
+ 
 [About Me](About.md)
 
 
