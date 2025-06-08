@@ -291,6 +291,9 @@ Efficiently synchronize millions of files across devices while minimizing data c
 
 
 - **Hashing** ensures quick detection of file changes by comparing hash values instead of scanning entire files.
+  
+  <img src="Images\hash.png" alt="BK" width="500" height="400"/>
+  
   [View code here](codes\hashing.cpp)
 - **Merkle Trees** enable efficient syncing by breaking files into chunks and verifying integrity hierarchically.
 
