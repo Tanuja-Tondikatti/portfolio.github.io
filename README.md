@@ -297,7 +297,11 @@ Efficiently synchronize millions of files across devices while minimizing data c
   [View code here](codes\hashing.cpp)
 - **Merkle Trees** enable efficient syncing by breaking files into chunks and verifying integrity hierarchically.
 
+ <img src="Images\Merkle.jpg" alt="BK" width="500" height="400"/>
+  
+  [View code here](codes\Merkle.cpp)
 
+  
 [About Me](About.md)
 
 
