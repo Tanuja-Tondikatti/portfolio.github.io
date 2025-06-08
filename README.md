@@ -183,7 +183,7 @@ Least Recently Used (LRU) Cache is applied for caching assets like images, scrip
 
 - **Time Complexity**: O(1) for get/put using hashmap + doubly linked list
 - **Space Complexity**: O(N)
-
+[View code here](codes\LRU.cpp)
 ### Segment Tree
 <img src="Images\segment.png" alt="Trie" width="500" height="400"/>
 
