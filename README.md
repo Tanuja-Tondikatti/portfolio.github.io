@@ -329,7 +329,48 @@ Optimize query execution across distributed databases to minimize latency and ba
 <img src="Images\dij.png" alt="Bipartite" width="500" height="400"/>
 
  [View code here](codes\Dijkstras.cpp)
+
  
+# Emerging Tech from Microsoft
+### 🧠 GraphRAG: Smarter AI for Complex Data
+
+GraphRAG is a recent innovation by Microsoft that enhances traditional Retrieval-Augmented Generation (RAG) methods by integrating graph-based reasoning. Instead of treating documents as isolated text blocks, GraphRAG builds a knowledge graph that captures relationships between entities and concepts. This allows AI models to retrieve more relevant context and generate more accurate, coherent answers—especially when working with private or domain-specific datasets. It's a powerful tool for improving enterprise-level question answering, knowledge discovery, and decision support.
+
+### 📐 Lean: Formal Proofs, Verified by Code
+
+Lean is an open-source theorem prover and functional programming language developed by Microsoft for writing and verifying mathematical proofs. It enables users to construct complex logical arguments with machine-checked accuracy, eliminating human errors in critical reasoning. Lean is widely used in academic research, formal verification, and mathematics education, offering a bridge between programming and rigorous proof logic. Its ability to formalize and verify proofs makes it invaluable for high-stakes domains like cryptography, aerospace, and software correctness.
+
+## 💼 Microsoft Business Cases: Innovation for Impact
+
+#### 🌿 1. Carbon Removal Commitments  
+**Timeline:** 2024–2039  
+**Estimated Budget:** $800+ million (AtmosClear project)  
+
+Microsoft is leading in sustainability by investing in large-scale carbon removal projects. It signed a major agreement with **AtmosClear** to support the world’s largest **BECCS** (Bioenergy with Carbon Capture and Storage) project in Louisiana. This initiative aims to permanently remove **6.75 million metric tons of CO₂** over 15 years.  
+
+In a separate deal, Microsoft partnered with **CO280**, a startup developing carbon capture solutions for the pulp and paper industry. This agreement targets the removal of **3.7 million tons of CO₂** over 12 years. These projects contribute to Microsoft's ambitious goal of becoming **carbon negative by 2030**.
+
+#### 🤖 2. Strategic AI Infrastructure Expansion  
+**Timeline:** FY 2025 (July 2024 – June 2025)  
+**Estimated Budget:** $80 billion in capital expenditures  
+
+To meet rising demand for generative AI and cloud computing, Microsoft is significantly expanding its AI infrastructure. This includes large-scale investments in **GPUs**, cloud hardware, and data center development for its **Azure** platform.  
+
+In parallel, Microsoft is enhancing its **Dynamics 365** suite, launching the **2025 Release Wave 1** with hundreds of new features across Sales, Finance, Customer Service, and Supply Chain applications. These upgrades aim to improve automation, decision-making, and business agility across industries.
+
+## References
+
+1. Microsoft Software Brand Logo. Vecteezy. [Link](https://www.vecteezy.com/vector-art/21514825-microsoft-software-brand-logo-symbol-with-name-design-vector-illustration-with-black-background)
+2. Market Share. Wikipedia. [Link](https://en.wikipedia.org/wiki/Microsoft_Edge)
+3. Gabriel Castro. "Trie Data Structure." Medium. [Link](https://gabrielcastro1028.medium.com/trie-data-structure-4a8becc97809)
+4. Thaddeus Abiy, Hannah Pang, Christopher Williams, and others. "Dijkstra's Shortest Path Finder." Brilliant. [Link](https://brilliant.org/wiki/dijkstras-short-path-finder/)
+5. Wikipedia. "Ford-Fulkerson Algorithm Demo." [Link](https://en.m.wikipedia.org/wiki/File.gif)
+6. Scaler Topics. "Segment Trees in Data Structure." [Link](https://www.scaler.com/topics/data-structures/segment-trees-in-data-structure/)
+7. Steven Skiena. "Search Algorithm Animations." [Link](https://www3.cs.stonybrook.edu/~skiena/combinatorica/animations/search.html)
+8. Red-Black Tree Image [Link](https://brilliant.org/wiki/red-black-tree/)
+9. Hashing Image [Link](https://www.thesslstore.com/blog/what-is-a-hash-function-in-cryptography-a-beginners-guide/)
+10. Least Recently Used(LRU) [Link](https://massivealgorithms.blogspot.com/2014/06/leetcode-lru-cache-java.html)
+11. Invert Index [Link](https://www.slideserve.com/creda/inverted-index)
 [About Me](About.md)
 
 
