@@ -158,7 +158,8 @@ Min Heaps are used for scheduling tasks in the correct order of execution based 
 
 - **Time Complexity**: O(log N) for insertion and deletion
 - **Space Complexity**: O(N)
-
+  
+[View code here](codes\Segment.cpp)
 ### Dependency Graph
 Dependency graphs represent the interdependencies among resources (scripts, stylesheets, etc.). This helps the browser determine the optimal load and execution order to minimize render-blocking and maximize performance.
 
