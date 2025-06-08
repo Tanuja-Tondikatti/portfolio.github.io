@@ -340,7 +340,7 @@ GraphRAG is a recent innovation by Microsoft that enhances traditional Retrieval
 
 Lean is an open-source theorem prover and functional programming language developed by Microsoft for writing and verifying mathematical proofs. It enables users to construct complex logical arguments with machine-checked accuracy, eliminating human errors in critical reasoning. Lean is widely used in academic research, formal verification, and mathematics education, offering a bridge between programming and rigorous proof logic. Its ability to formalize and verify proofs makes it invaluable for high-stakes domains like cryptography, aerospace, and software correctness.
 
-## 💼 Microsoft Business Cases: Innovation for Impact
+## 💼 Innovation for Impact
 
 #### 🌿 1. Carbon Removal Commitments  
 **Timeline:** 2024–2039  
@@ -371,6 +371,8 @@ In parallel, Microsoft is enhancing its **Dynamics 365** suite, launching the **
 9. Hashing Image [Link](https://www.thesslstore.com/blog/what-is-a-hash-function-in-cryptography-a-beginners-guide/)
 10. Least Recently Used(LRU) [Link](https://massivealgorithms.blogspot.com/2014/06/leetcode-lru-cache-java.html)
 11. Invert Index [Link](https://www.slideserve.com/creda/inverted-index)
+
+
 [About Me](About.md)
 
 
