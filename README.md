@@ -268,6 +268,32 @@ Microsoft Outlook is one of the most widely used email platforms, supporting mil
 
 Microsoft Outlook leverages a rich collection of classic and modern data structures and algorithms to deliver high-performance email services. From full-text indexing to smart cache management, these DSA tools are foundational in making Outlook a reliable, scalable, and fast communication platform for millions of users worldwide.
 
+# 5. Microsoft OneDrive - File Synchronization and Conflict Resolution
+
+Efficiently synchronize millions of files across devices while minimizing data conflicts and ensuring fast recovery from synchronization errors.
+
+## Challenges
+- Managing file versioning and detecting conflicts in real time.
+- Efficiently syncing only changed portions of files to reduce bandwidth.
+- Handling simultaneous edits and merge conflicts with minimal user disruption.
+
+## Market Benefits
+- Faster sync speeds reduce user wait times.
+- Accurate conflict detection ensures data integrity.
+- Reduced network usage lowers costs and improves user experience.
+
+## Algorithms, Data Structures & Techniques
+
+| Technique / Structure       | Use Case                                     | Time Complexity                          | Space Complexity       |
+|-----------------------------|----------------------------------------------|------------------------------------------|------------------------|
+| **Hashing (e.g., SHA256)**  | Detect changed files or file chunks          | O(N) for hashing file content            | O(1) per chunk/hash    |
+| **Merkle Tree**             | Efficient synchronization and conflict check | Build/Compare: O(N log N) for N chunks   | O(N)                   |
+
+
+- **Hashing** ensures quick detection of file changes by comparing hash values instead of scanning entire files.
+- **Merkle Trees** enable efficient syncing by breaking files into chunks and verifying integrity hierarchically.
+
+
 [About Me](About.md)
 
 
