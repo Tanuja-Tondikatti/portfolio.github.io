@@ -154,6 +154,7 @@ Page loading is a critical factor in browser performance. Efficient use of data 
 ---
 
 ### Event Queue / Min Heap
+<img src="Images\Min-Heap.webp" alt="Trie" width="500" height="400"/>
 Min Heaps are used for scheduling tasks in the correct order of execution based on priority. For example, scripts that must run before rendering, layout recalculations, or frame paint tasks can be prioritized and executed using a min-heap task scheduler.
 
 - **Time Complexity**: O(log N) for insertion and deletion
