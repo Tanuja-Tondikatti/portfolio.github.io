@@ -222,6 +222,43 @@ These algorithms provide foundational tools for optimizing network traffic, enab
 
 [View code here](codes\Maxflow.cpp)
 
+---
+
+# 4. Enhancing Email Delivery and Search Efficiency in Microsoft Outlook 
+
+Microsoft Outlook is one of the most widely used email platforms, supporting millions of emails per second across enterprises and individuals. To provide **real-time email delivery**, **reliable synchronization**, and **powerful search**, Outlook employs a range of advanced data structures and algorithms — ensuring that communication remains fast, secure, and organized.
+
+## Algorithms and Data Structures Used
+
+### **Inverted Index**
+- **Use Case:** Full-text email search (subject, body, attachments).
+- **Benefit:** O(1) keyword lookup after preprocessing; fast and scalable.
+
+### **Bloom Filter**
+- **Use Case:** Fast spam signature checks and duplicate email detection.
+- **Benefit:** Low-memory, probabilistic presence testing in O(1) time.
+### **Segment Tree**
+- **Use Case:** Efficient querying of email stats (e.g., unread count over time range).
+- **Benefit:** O(log N) time for updates and range queries.
+
+### **LRU Cache**
+- **Use Case:** Cache of recently opened emails or frequently contacted users.
+- **Structure:** HashMap + Doubly Linked List
+- **Benefit:** O(1) get/put; boosts perceived responsiveness.
+
+### **KMP / Boyer-Moore String Matching**
+- **Use Case:** Efficient pattern search in email content or attachments.
+- **Benefit:** Sublinear or linear pattern match times in large text bodies.
+
+### **AVL Tree / Red-Black Tree**
+- **Use Case:** Balanced storage of timestamped messages or event logs.
+- **Benefit:** Ensures O(log N) insert, delete, and search.
+---
+
+## Conclusion
+
+Microsoft Outlook leverages a rich collection of classic and modern data structures and algorithms to deliver high-performance email services. From full-text indexing to smart cache management, these DSA tools are foundational in making Outlook a reliable, scalable, and fast communication platform for millions of users worldwide.
+
 [About Me](About.md)
 
 
